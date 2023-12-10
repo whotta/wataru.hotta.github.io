@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: HOTTA, Wataru
-    tagline: Forest ecology        
+    tagline: 堀田 亘       
     avatar: IMG_4575_Original_edit3.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -37,7 +37,7 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: Professional
+          level: Intermediate
 
         #- idiom: Spanish
         #  level: Professional
@@ -45,21 +45,25 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
         - item: Skiing
           link:
 
-        - item: Cooking
+        - item: Hiking
           link:
+
+        #- item: Cooking
+        #  link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Forest management / Climate change / Disturbance / Landscape simulation
+      Forest management<br>
+      Climate change<br>
+      Disturbance<br>
+      Landscape simulation<br>
+      Ecosystem services
       
-      Second paragraph if required.
+      #Second paragraph if required.
 
 education:
     title: Education
@@ -88,86 +92,140 @@ education:
             - Bullet point
 
 experiences:
-    title: Experiences
+    title: Current affiliation
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - role: Ph.D. Student / JSPS Research Fellow (DC1)
+        time: 2021 - Present
+        company: |-
+            Ecosystem management lab, Graduate School of Agriculture, 
+            Hokkaido University, Japan
+        #details: |
+        #  Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #  Cum sociis natoque penatibus et magnis dis parturient montes,
+        #  nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #  pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        #  enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        #  error sit voluptatem accusantium doloremque laudantium, totam rem
+        #  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        #  architecto beatae vitae dicta sunt explicabo.
+        #    - Bullet point
+        #    - Bullet point
+      #- role: JSPS Research Fellow (DC1)
+      #  time: 2021 - 2024
+      #  company: Japan Society for Promotion of Science
+      #  details: |
+        #  Describe your role here lorem ipsum dolor sit amet, consectetuer
+        #  adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        #  Cum sociis natoque penatibus et magnis dis parturient montes,
+        #  nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        #  pellentesque eu, pretium quis, sem.
+        #    - Bullet point
+        #    - Bullet point
+      #- role: UI Developer
+      #  time: 2012 - 2014
+      #  company: Amazon, London
+      #  details: |
+      #    Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #    adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #    Cum sociis natoque penatibus et magnis dis parturient montes,
+      #    nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #    pellentesque eu, pretium quis, sem.
+      #      - Bullet point
+      #     - Bullet point
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+publications:
+    title: Publications
+    #intro: |
+    #  You can list your publications in this section. Lorem ipsum dolor sit
+    #  amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #  bibendum fringilla a eu lectus.
+    papers:
+      - title: "Environmental heterogeneity on landslide slopes affects the long-term recoveries of forest ecosystem components."
+        link: "https://doi.org/10.1016/j.catena.2023.107578"
+        authors: <b><u>Hotta W*</u></b>, Morimoto J, Yanai S, Uchida Y, Nakamura F
+        conference: "<i>CATENA</i> 234: 107578 (2024)"
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - title: "Leaving disturbance legacies conserves boreal conifers and maximizes net CO<sub>2</sub> absorption under climate change and more frequent and larger windthrow regimes."
+        link: "https://doi.org/10.1007/s10980-023-01680-4"
+        authors: <b><u>Hotta W*</u></b>, Haga C, Morimoto J, Suzuki SN, Matsui T, Owari T, Shibata H,<br>Nakamura F
+        conference: "<i>Landscape Ecology</i> 38 (7): 1785-1805 (2023)"
+
+      - title: "Modeling desirable futures at local scale by combining the nature futures framework and multi-objective optimization."
+        link: "https://doi.org/10.1007/s11625-023-01301-8"
+        authors: Haga C*, Maeda M, <b><u>Hotta W</u></b>, Matsui T, Morimoto J, Shibata H, Hashimoto S, Saito O, Okayasu S, Kim H, Peterson G
+        conference: "<i>Sustainability Science</i> (2023)"
+        
+      - title: "The 30-year impact of post-windthrow management on the forest regeneration process in northern Japan."
+        link: "https://doi.org/10.1007/s11355-023-00539-9"
+        authors: Li J, Morimoto J*, <b><u>Hotta W</u></b>, Suzuki SN, Owari T, Toyoshima M, Nakamura F
+        conference: "<i>Landscape and Ecological Engineering</i> 19: 227–242 (2023)"
+        
+      - title: "Modeling tree recovery in wind-disturbed forests with dense understory species under climate change."
+        link: "https://doi.org/10.1016/j.ecolmodel.2022.110072"
+        authors: Haga C*, <b><u>Hotta W</u></b>, Inoue T, Matsui T, Aiba M, Owari T, Suzuki SN, Shibata H, Morimoto J
+        conference: "<i>Ecological Modelling</i> 472: 110072 (2022)"
+        
+      - title: "Long-term cumulative impacts of windthrow and subsequent management on tree species composition and aboveground biomass: A simulation study considering regeneration on downed logs."
+        link: "https://doi.org/10.1016/j.foreco.2021.119728"
+        authors: <b><u>Hotta W*</u></b>, Morimoto J, Haga C, Suzuki SN, Inoue T, Matsui T, Owari T, Shibata H, Nakamura F
+        conference: "<i>Forest Ecology and Management</i> 502: 119728 (2021)"
+      
+      - title: "Recovery and allocation of carbon stocks in boreal forests 64 years after catastrophic windthrow and salvage logging in northern Japan."
+        link: "https://doi.org/10.1016/j.foreco.2020.118169"
+        authors: <b><u>Hotta W*</u></b>, Morimoto J, Inoue T, Suzuki SN, Umebayashi T, Owari T, Shibata H, Ishibashi S, Hara T, Nakamura F
+        conference: "<i>Forest Ecology and Management</i> 468: 118169 (2020)"
+        
+      - title: "Scenario Analysis of Renewable Energy–Biodiversity Nexuses using a Forest Landscape Model."
+        link: "https://doi.org/10.3389/fevo.2020.00155"
+        authors: Haga C*, Maeda M, <b><u>Hotta W</u></b>, Inoue T, Matsui T, Machimura T, Nakaoka M, Morimoto J, Shibata H, Hashimoto S, Saito O
+        conference: "<i>Forest Ecology and Management</i> 468: 118169 (2020)"
+        
+      - title: "Simulation of natural capital and ecosystem services in a watershed in Northern Japan focusing on the future underuse of nature: by linking forest landscape model and social scenarios."
+        link: "https://doi.org/10.1007/s11625-018-0623-9"
+        authors: Haga C*, Inoue T, <b><u>Hotta W</u></b>, Shibata R, Hashimoto S, Kurokawa H, Machimura T, Matsui T*, Morimoto J, Shibata H
+        conference: "<i>Sustainability Science</i> 14: 89–106 (2019)"
+
+#certifications:
+#      title: Certifications
+#      list:
+#        - name: CV Builder
+#          start: 2020
+#          end: 2021
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.google.com
+#          credentialname: Google
+#          details: |
+#            Details about cert. Lorem ipsum dolor sit amet, consectetur
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh.
+#            Aenean fermentum, felis vulputate suscipit accumsan,
+#            sem enim bibendum augue, sed convallis arcu lacus at dui.
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#            Praesent venenatis erat non augue suscipit consectetur.
+
+#            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#            justo diam viverra velit, sed rhoncus leo leo eu justo.
+#            Suspendisse placerat risus ante, sed porta nisi blandit at.
+#        - name: Git learning
+#          start: 2019
+#          end:
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.github.com
+#          credentialname: Github
+#          details: |
+#            Older certification. Lorem ipsum dolor sit amet, consectetur
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh.
+#            Aenean fermentum, felis vulputate suscipit accumsan,
+#           sem enim bibendum augue, sed convallis arcu lacus at dui.
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
@@ -196,46 +254,24 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 skills:
     title: Skills &amp; Proficiency
@@ -259,5 +295,5 @@ skills:
       - name: Sketch & Photoshop
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
